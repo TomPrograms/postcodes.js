@@ -1,0 +1,38 @@
+{
+  "name": "postcodes.js",
+  "version": "1.0.0",
+  "description": "Postcodes.js is an API wrapper for postcodes.io allowing users to find information about UK postcodes, find UK postcodes from co-ordinates and more.",
+  "main": "index.js",
+  "repository": "shopolivery/postcodes.js",
+  "scripts": {
+    "format": "prettier --write {**,**/**}/*.{js,md,css}"
+  },
+  "author": "Shopolivery Limited",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "Changelog.md",
+    "Readme.md",
+    "index.js",
+    "src/"
+  ],
+  "keywords": [
+    "uk",
+    "postcode",
+    "postcodes",
+    "postcode-api",
+    "postcodes-api",
+    "postcodesio",
+    "postcodes.io",
+    "io",
+    "api",
+    "wrapper"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lru-cache": "^5.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
