@@ -13,12 +13,10 @@ class Request {
   }
 
   createHash(hashingAlgorithm) {
-  
     this.hash = crypto
       .createHash(hashingAlgorithm)
       .update(JSON.stringify(this.requestData))
       .digest("hex");
-      console.log(this.hash, hashingAlgorithm)
   }
 }
 
