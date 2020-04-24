@@ -3,11 +3,11 @@
   "version": "1.0.1",
   "description": "Postcodes.js is an API wrapper for postcodes.io allowing users to find information about UK postcodes, find UK postcodes from co-ordinates and more.",
   "main": "index.js",
-  "repository": "shopolivery/postcodes.js",
+  "repository": "tomprograms/postcodes.js",
   "scripts": {
     "format": "prettier --write {**,**/**}/*.{js,md,css}"
   },
-  "author": "Shopolivery Limited",
+  "author": "Tom",
   "license": "MIT",
   "files": [
     "LICENSE",
