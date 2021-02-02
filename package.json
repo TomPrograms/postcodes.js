@@ -1,6 +1,6 @@
 {
   "name": "postcodes.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Postcodes.js is an API wrapper for postcodes.io allowing users to find information about UK postcodes, find UK postcodes from co-ordinates and more.",
   "main": "index.js",
   "repository": "tomprograms/postcodes.js",
